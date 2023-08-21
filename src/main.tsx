@@ -28,6 +28,26 @@ import { UseReducerQ } from "./components/9 UseReducer/question";
 import { UseReducerS } from "./components/9 UseReducer/solution";
 import { Checkpoint1Q } from "./components/5 Checkpoint1-Departure-Board/question";
 import { Checkpoint1S } from "./components/5 Checkpoint1-Departure-Board/solution";
+import { ForwardRefS } from "./components/13 ForwardRef/solution";
+import { ForwardRefQ } from "./components/13 ForwardRef/question";
+import { Checkpoint2Q } from "./components/14 Checkpoint2-Departure-Search/question";
+import { Checkpoint2S } from "./components/14 Checkpoint2-Departure-Search/solution";
+import { ReturnTypeQ } from "./components/15 ReturnType/question";
+import { ReturnTypeS } from "./components/15 ReturnType/solution";
+import { ChildrenQ } from "./components/16 Children/question";
+import { ChildrenS } from "./components/16 Children/solution";
+import { RecordQ } from "./components/17 Record/question";
+import { RecordS } from "./components/17 Record/solution";
+import { OptionalChainingQ } from "./components/18 OptionalChaining/question";
+import { RenderPropQ } from "./components/19 RenderProp/question";
+import { RenderPropS } from "./components/19 RenderProp/solution";
+import { Checkpoint3Q } from "./components/20 Checkpoint3-Departure-Control/question";
+import { Checkpoint3S } from "./components/20 Checkpoint3-Departure-Control/soltuion";
+import { Checkpoint4Q } from "./components/21 Checkpoint4-Departure-Booking/question";
+import { Checkpoint4S } from "./components/21 Checkpoint4-Departure-Booking/solution";
+import { ContextQ } from "./components/22 Context/question";
+import { ContextS } from "./components/22 Context/solution";
+import { OptionalChainingS } from "./components/18 OptionalChaining/solution";
 
 const router = createBrowserRouter([
   {
@@ -129,6 +149,86 @@ const router = createBrowserRouter([
       {
         path: "use-ref-q",
         element: <UseRefQ />,
+      },
+      {
+        path: "forward-ref-s",
+        element: <ForwardRefS />,
+      },
+      {
+        path: "forward-ref-q",
+        element: <ForwardRefQ />,
+      },
+      {
+        path: "checkpoint-2-s",
+        element: <Checkpoint2S />,
+      },
+      {
+        path: "checkpoint-2-q",
+        element: <Checkpoint2Q />,
+      },
+      {
+        path: "return-type-s",
+        element: <ReturnTypeS />,
+      },
+      {
+        path: "return-type-q",
+        element: <ReturnTypeQ />,
+      },
+      {
+        path: "children-s",
+        element: <ChildrenS />,
+      },
+      {
+        path: "children-q",
+        element: <ChildrenQ />,
+      },
+      {
+        path: "record-s",
+        element: <RecordS />,
+      },
+      {
+        path: "record-q",
+        element: <RecordQ />,
+      },
+      {
+        path: "optional-chaining-s",
+        element: <OptionalChainingS />,
+      },
+      {
+        path: "optional-chaining-q",
+        element: <OptionalChainingQ />,
+      },
+      {
+        path: "render-prop-s",
+        element: <RenderPropS />,
+      },
+      {
+        path: "render-prop-q",
+        element: <RenderPropQ />,
+      },
+      {
+        path: "checkpoint3-s",
+        element: <Checkpoint3S />,
+      },
+      {
+        path: "checkpoint3-q",
+        element: <Checkpoint3Q />,
+      },
+      {
+        path: "checkpoint-4-s",
+        element: <Checkpoint4S />,
+      },
+      {
+        path: "checkpoint-4-q",
+        element: <Checkpoint4Q />,
+      },
+      {
+        path: "context-s",
+        element: <ContextS />,
+      },
+      {
+        path: "context-q",
+        element: <ContextQ />,
       },
     ],
   },

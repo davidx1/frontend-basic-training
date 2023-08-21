@@ -79,6 +79,70 @@ function App() {
             <li>
               <a href={`/use-ref-s`}>12: Use Ref - solution</a>
             </li>
+            <li>
+              <a href={`/forward-ref-q`}>13: Forward Ref - question</a>
+            </li>
+            <li>
+              <a href={`/forward-ref-s`}>13: Forward Ref - solution</a>
+            </li>
+            <li>
+              <a href={`/checkpoint-2-q`}>14: Checkpoint 2 - question</a>
+            </li>
+            <li>
+              <a href={`/checkpoint-2-s`}>14: Checkpoint 2 - solution</a>
+            </li>
+            <li>
+              <a href={`/return-type-q`}>15: Return Type - question</a>
+            </li>
+            <li>
+              <a href={`/return-type-s`}>15: Return Type - solution</a>
+            </li>
+            <li>
+              <a href={`/children-q`}>16: Children - question</a>
+            </li>
+            <li>
+              <a href={`/children-s`}>16: Children - solution</a>
+            </li>
+            <li>
+              <a href={`/record-q`}>17: Record - question</a>
+            </li>
+            <li>
+              <a href={`/record-s`}>17: Record - solution</a>
+            </li>
+            <li>
+              <a href={`/optional-chaining-q`}>
+                18: Optional Chaining - question
+              </a>
+            </li>
+            <li>
+              <a href={`/optional-chaining-s`}>
+                18: Optional Chaining - solution
+              </a>
+            </li>
+            <li>
+              <a href={`/render-prop-q`}>19: Render Prop - question</a>
+            </li>
+            <li>
+              <a href={`/render-prop-s`}>19: Render Prop - solution</a>
+            </li>
+            <li>
+              <a href={`/checkpoint-3-q`}>20: Checkpoint 3 - question</a>
+            </li>
+            <li>
+              <a href={`/checkpoint-3-s`}>20: Checkpoint 3 - solution</a>
+            </li>
+            <li>
+              <a href={`/checkpoint-4-q`}>21: Checkpoint 4 - question</a>
+            </li>
+            <li>
+              <a href={`/checkpoint-4-s`}>21: Checkpoint 4 - solution</a>
+            </li>
+            <li>
+              <a href={`/context-q`}>22: Context - question</a>
+            </li>
+            <li>
+              <a href={`/context-s`}>22: Context - solution</a>
+            </li>
           </ul>
         </nav>
       </aside>
