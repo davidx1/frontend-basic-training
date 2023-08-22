@@ -143,6 +143,24 @@ function App() {
             <li>
               <a href={`/context-s`}>22: Context - solution</a>
             </li>
+            <li>
+              <a href={`/flexbox-q`}>23: Flex Box - question</a>
+            </li>
+            <li>
+              <a href={`/flexbox-s`}>23: Flex Box - solution</a>
+            </li>
+            <li>
+              <a href={`/nested-flex-q`}>24: Nested Flex - question</a>
+            </li>
+            <li>
+              <a href={`/nested-flex-s`}>24: Nested Flex - solution</a>
+            </li>
+            <li>
+              <a href={`/checkpoint-5-q`}>25: Checkpoint 5 - question</a>
+            </li>
+            <li>
+              <a href={`/checkpoint-5-s`}>25: Checkpoint 5 - solution</a>
+            </li>
           </ul>
         </nav>
       </aside>

@@ -68,11 +68,13 @@ const RocketDepartureBoard = ({ rockets, routeInfo }: RocketDepartureProps) => {
         <tr>
           <td>{rocket.name}</td>
           <td>
-            {rocket.crew.map((crewMember) => (
-              <p>
-                Name: {crewMember.name} Role: {crewMember.role}
-              </p>
-            ))}
+            <ul>
+              {rocket.crew.map((crewMember) => (
+                <li>
+                  Name: {crewMember.name} Role: {crewMember.role}
+                </li>
+              ))}
+            </ul>
           </td>
           <td>
             <DetermineRoutes rocketName={rocket.name} routeInfo={routeInfo} />

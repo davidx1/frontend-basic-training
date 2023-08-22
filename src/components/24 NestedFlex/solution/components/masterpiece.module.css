@@ -1,0 +1,60 @@
+.wrapper {
+  height: 200px;
+  width: 300px;
+  background-color: black;
+  border: 5px solid black;
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.d_h {
+  display: flex;
+  gap: 15px;
+  height: 100%;
+  width: 100%;
+}
+
+.d_c {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 100%;
+  width: 100%;
+}
+
+.b_y {
+  background-color: yellow;
+  height: 100%;
+  width: 100%;
+}
+
+.b_b {
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+}
+
+.b_r {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+}
+
+.b_w {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.f_1 {
+  flex: 1;
+}
+
+.f_2 {
+  flex: 2;
+}
+
+.f_3 {
+  flex: 3;
+}

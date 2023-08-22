@@ -1,0 +1,19 @@
+.wrapper {
+  /* //TODO: Modify to achieve desired layout */
+  width: 100%;
+  height: 100%;
+}
+
+/* //DO NOT TOUCH THE CODE BELOW*/
+.box1 {
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+}
+
+.box2 {
+  align-self: flex-start;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}

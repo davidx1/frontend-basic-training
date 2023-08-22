@@ -48,6 +48,12 @@ import { Checkpoint4S } from "./components/21 Checkpoint4-Departure-Booking/solu
 import { ContextQ } from "./components/22 Context/question";
 import { ContextS } from "./components/22 Context/solution";
 import { OptionalChainingS } from "./components/18 OptionalChaining/solution";
+import { FlexBoxQ } from "./components/23 FlexBox/question";
+import { FlexBoxS } from "./components/23 FlexBox/solution";
+import { NestedFlexQ } from "./components/24 NestedFlex/question";
+import { NestedFlexS } from "./components/24 NestedFlex/solution";
+import { Checkpoint5Q } from "./components/25 Checkpoint5-Dynamic-Input/question";
+import { Checkpoint5S } from "./components/25 Checkpoint5-Dynamic-Input/solution";
 
 const router = createBrowserRouter([
   {
@@ -229,6 +235,30 @@ const router = createBrowserRouter([
       {
         path: "context-q",
         element: <ContextQ />,
+      },
+      {
+        path: "flexbox-s",
+        element: <FlexBoxS />,
+      },
+      {
+        path: "flexbox-q",
+        element: <FlexBoxQ />,
+      },
+      {
+        path: "nested-flex-s",
+        element: <NestedFlexS />,
+      },
+      {
+        path: "nested-flex-q",
+        element: <NestedFlexQ />,
+      },
+      {
+        path: "checkpoint-5-s",
+        element: <Checkpoint5S />,
+      },
+      {
+        path: "checkpoint-5-q",
+        element: <Checkpoint5Q />,
       },
     ],
   },

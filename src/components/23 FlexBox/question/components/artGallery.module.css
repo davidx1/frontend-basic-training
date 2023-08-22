@@ -1,0 +1,11 @@
+/* //DO NOT TOUCH THE CODE BELOW*/
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  border: 1px solid black;
+  padding: 50px;
+}
